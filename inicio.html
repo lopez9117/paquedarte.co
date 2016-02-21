@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<!---->
+<html>
+
+	<head>
+		<title>Paquedarte.co by Ignisoft</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/jquery.colorbox.js"></script>
+		<link rel="stylesheet" href="colorbox.css" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="jquery.min.js"></script>
+		<script src="jquery.colorbox.js"></script>
+		<script>
+			$(document).ready(function(){	
+				//Examples of how to assign 	the ColorBox event to elements
+				$(".group1").colorbox({rel:'group1'});
+                $(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+
+		<!-- Header -->
+			<div id="header">
+						
+				<!-- Inner -->
+					<div class="inner">
+						<header>
+							<h1>
+						<a  class="image"><img src="images/Logo-Paquedarte-400x400.png" alt="" /></a></h1>											
+						</header>
+						<footer>
+							<a href="#banner" class="button circled scrolly">Buscar</a>
+							<a href="contacto.html" class="button circled scrolly">Publicar</a>
+						</footer>
+					</div>
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="">Inicio</a></li>
+							<li>
+								 <a href="contacto.html">Publicar</a>								
+							</li>
+							<li><a href="Registro.php">Registro</a></li>
+						</ul>
+					</nav>
+
+			</div>	
+
+			<div id="banner">
+				<h2>Hola, busca donde <strong>Quedarte</strong>.</h2>
+
+				<form class="searchform">	
+	<input class="searchfield" type="text" placeholder="Barrios..." onfocus= "if (this.value == 'Buscar...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Buscar...';}" />
+		 <input  type="range" id="rangeinput" value="500000" min="0" max="700000" onchange="rangevalue.value=value" />  $  <output id="rangevalue" postion="relative"> 500000  </output><input class="searchbutton" type="button" value="Buscar" />	</form>
+
+			</div>
+		<!-- Main -->
+			<div class="wrapper style2">
+
+				<article id="main" class="container special">
+					
+					
+					<footer>
+						<a href="#" class="button">Publica</a>
+					</footer>
+				</article>
+
+			</div>	
+			
+		<!-- Banner -->
+			<div ><h2 class"banner" postion"center"  tecx align="center">Lugares que podrian interesarte:</h2> </div>	
+
+
+		<!-- Carousel -->
+			<div class="carousel">
+				<div class="reel">
+
+					<article>
+					<a  class="image featured"> <img   src="images/cuarto1.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Apartaestudio</a></h3>
+							<h3>En altos de los jardines</h3>
+						</header>
+						<p> <strong>$ 250000</strong> </p>
+						<p>Renta cómoda habitación amoblada en la urbanización la española en Cartagena lugar estratégica y de sencillo acceso a cualquier punto de la ciudad...   </p>			<p><a   class="group1" href="images/cuarto1.jpg" title="Foto 1"> <strong>Quedate</strong> aqui</a>				
+					</article>
+				
+					<article>
+						<a href="" class="image featured"><img src="images/cuarto2.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Pension</a></h3>
+							<h3><a href="#">Manga</a></h3>
+						</header>
+						<p><strong>$ 400000</strong></p>
+						<p>Cómoda habitación manga. baño interno. Televisión con tv cable. Escritorio, silla. Internet. Baño interno. Cerca dian, sociedad portuaria, bahía manga   </p>		<p><a   class="group1" href="images/cuarto2.jpg" title="Foto 1"> <strong>Quedate</strong> aqui</a>					
+					</article>
+				
+					<article>
+						<a href="" class="image featured"><img src="images/cuarto3.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Habitación</a></h3>
+							<h3><a href="#">Bocagrande</a></h3>
+						</header>
+						<p><strong>$ 430000 </strong></p>
+						<p>  Capacidad para 10 personas, 4 habitaciones, 4 niveles, 600 m2.... primer nivel: parking (3), 1 habitación (aire acondicionado, baño in. casa en arriendo.</p>			<p><a   class="group1" href="images/cuarto3.jpg" title="Foto 1"> <strong>Quedate</strong> aqui</a>				
+					</article>
+				
+					
+					<article>
+					<a href="" class="image featured"><img src="images/cuarto4.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Apartaestudio</a></h3>
+							<h3>En La Consolata</h3>
+						</header>
+						<p> <strong>$ 350000</strong> </p>
+						<p>Cómoda habitación manga. baño interno. Televisión con tv cable. Escritorio, silla. Internet. Baño interno. Cerca dian, sociedad portuaria, bahía manga   </p>				<p><a   class="group1" href="images/cuarto4.jpg" title="Foto 1"> <strong>Quedate</strong> aqui</a>		
+					</article>
+				
+					
+					<article>
+					<a href="" class="image featured"><img src="images/cuarto5.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Habitación</a></h3>
+							<h3>En altos de los jardines</h3>
+						</header>
+						<p> <strong>$ 250000</strong> </p>
+						<p>Renta cómoda habitación amoblada en la urbanización la española en Cartagena lugar estratégica y de sencillo acceso a cualquier punto de la ciudad...   </p>					<p><a   class="group1" href="images/cuarto5.jpg" title="Foto 1"> <strong>Quedate</strong> aqui</a>			
+					</article>
+
+					
+					<article>
+					<a href="" class="image featured"><img src="images/cuarto6.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Apartaestudio</a></h3>
+							<h3>En altos de los jardines</h3>
+						</header>
+						<p> <strong>$ 180000</strong> </p>
+					<p>  Capacidad para 10 personas, 4 habitaciones, 4 niveles, 600 m2.... primer nivel: parking (3), 1 habitación (aire acondicionado, baño in. casa en arriendo.</p>						<p><a   class="group1" href="images/cuarto6.jpg" title="Foto 1"> <strong>Quedate</strong> aqui</a>	
+					</article>
+				
+					<article>
+					<a href="" class="image featured"><img src="images/cuarto7.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Pension</a></h3>
+							<h3>En altos de los jardines</h3>
+						</header>
+						<p> <strong>$ 750000</strong> </p>
+						<p>Cómoda habitación manga. baño interno. Televisión con tv cable. Escritorio, silla. Internet. Baño interno. Cerca dian, sociedad portuaria, bahía manga   </p>			<p><a   class="group1" href="images/cuarto7.jpg" title="Foto 1"> <strong>Quedate</strong> aqui</a>			
+					</article>
+				
+					
+					<article>
+					<a href="" class="image featured"><img src="images/cuarto8.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Habitación</a></h3>
+							<h3>En altos de los jardines</h3>
+						</header>
+						<p> <strong>$ 300000</strong> </p>
+						<p>Renta cómoda habitación amoblada en la urbanización la española en Cartagena lugar estratégica y de sencillo acceso a cualquier punto de la ciudad...   </p>				<p><a   class="group1" href="images/cuarto8.jpg" title="Foto 1"> <strong>Quedate</strong> aqui</a>			
+					</article>
+
+				
+					
+					<article>
+					<a href="" class="image featured"><img src="images/cuarto9.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Pension</a></h3>
+							<h3>En altos de los jardines</h3>
+						</header>
+						<p> <strong>$ 200000</strong> </p>
+					<p>  Capacidad para 10 personas, 4 habitaciones, 4 niveles, 600 m2.... primer nivel: parking (3), 1 habitación (aire acondicionado, baño in. casa en arriendo.</p>							<p><a   class="group1" href="images/cuarto9.jpg" title="Foto 1"> <strong>Quedate</strong> aqui</a>
+					</article>
+				
+					
+					<article>
+					<a href="" class="image featured"><img src="images/cuarto10.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Apartaestudio</a></h3>
+							<h3>En altos de los jardines</h3>
+						</header>
+						<p> <strong>$ 150000</strong> </p>
+						<p>Cómoda habitación manga. baño interno. Televisión con tv cable. Escritorio, silla. Internet. Baño interno. Cerca dian, sociedad portuaria, bahía manga   </p>				<p><a   class="group1" href="images/cuarto10.jpg" title="Foto 1"> <strong>Quedate</strong> aqui</a>			
+					</article>
+
+				</div>
+			</div>
+			
+
+		<!-- Features -->
+			
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container">
+					<!-- <div class="row">
+						</div>
+					<hr />
+					<div class="row">
+						<div class="12u">-->
+							
+							<!-- Contact -->
+								<section class="contact">
+									<header>
+										<h3>Quieres publicar tu propio anuncio?</h3>
+									</header>
+									<p>Contacta con nosotros y podras agregar mas lugares donde otras personas puedan Quedarse</p>
+									<ul class="icons">
+										<li><a href="#" class="fa fa-twitter solo"><span>Twitter</span></a></li>
+										<li><a href="#" class="fa fa-facebook solo"><span>Facebook</span></a></li>
+										<li><a href="#" class="fa fa-google-plus solo"><span>Google+</span></a></li>
+										<li><a href="#" class="fa fa-pinterest solo"><span>Pinterest</span></a></li>
+										<li><a href="#" class="fa fa-dribbble solo"><span>Dribbble</span></a></li>
+										<li><a href="#" class="fa fa-linkedin solo"><span>Linkedin</span></a></li>
+									</ul>
+								</section>
+							
+							<!-- Copyright -->
+								<div class="copyright">
+									<ul class="menu">
+										<li>&copy; Paquedarte.co. Todos los Derechos Reservados.</li>
+									
+									</ul>
+								</div>							
+						</div>									
+	</body>
+</html>
